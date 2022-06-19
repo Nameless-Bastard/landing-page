@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    margin: 0;  
+    padding: 0;
+}
+
+p {
+    color: white;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-header {
+    background-image: url("images/bg-header.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300vh;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    color: whitesmoke;
+    background: linear-gradient(to bottom, rgb(29, 30, 60), transparent);
+}
+
+.nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.nav ul {
+    
+    list-style: none;
+    flex-direction: column;
+} 
+
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul li a{
+    /* color: rgb(151, 165, 222); */
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 1rem;
+    padding: 8px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-shadow: 2px 2px 2px rgb(29, 30, 60), -1px -1px 1px lightgray;
+}
+
+.section1 {
+    flex-direction: column;
+    background: rgb(29, 30, 60);
+    justify-content: center;
+    text-align: center;
+}
+
+.section1 span {
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 60px;
+    margin-bottom: 50px;
+}
+
+.title {
+    color: rgb(29, 30, 60);
+    font-size: 3rem;
+    font-weight: 550;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, rgb(29, 30, 60), transparent, transparent, transparent, transparent, transparent);
+}
+
+.child-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 30px;
+}
+
+.child-container img{
+    border-radius: 10px;
+    border: 5px solid rgb(29, 30, 60);
+    box-shadow: 5px 2px 5px rgb(29, 30, 60);
+    margin: 60px 0;
+}
+
+.child-container p{
+    text-shadow: 1px 1px 5px rgb(29, 30, 60), -1px -1px 5px blue;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 100px;
+    box-shadow: 0 5px 10px rgb(29, 30, 60);
+}
+
+.item-images {
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+}
+
+.item-images p {
+    font-size: 16px;
+}
+
+.item-images img{
+    width: 100%;
+    box-shadow: 3px 3px 5px black;
+}
+
+.quote {
+    font-size: 1.8rem;
+    color: gray;
+    font-style: italic;
+    width: 70%;
+    margin: 0 auto;
+    font-weight: 100;
+    overflow: auto;
+}
+
+.quote cite {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    float: right;
+}
+
+.inv-container{
+    background-color: rgb(117, 120, 175);
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.invitation {
+    margin: 0 auto;
+    display: flex;
+    background: white;
+    width: 70%;
+    padding: 40px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.invitation div > h3, p {
+    margin: 10px;
+}
+
+.btn-sign-up { 
+    padding: 15px 0;
+    background-color: rgb(29, 30, 60);
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: 0;
+    width: 130px;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.footer {
+    background-color:  rgb(29, 30, 60);
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 -5px 10px rgb(29, 30, 60);
+}
+
+
